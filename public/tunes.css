@@ -56,6 +56,17 @@ a {
   font-weight: 600;
 }
 
-.middot::after {
+.track-like-count {
+  cursor: pointer;
+}
+
+.track-like-count::before {
+  content: "❤ ";
+  color: rgb(189, 20, 193);
+}
+
+.middot:not(:empty)::after {
   content: " ∙ ";
+  opacity: 0.5;
+  margin: 0 0.2em;
 }

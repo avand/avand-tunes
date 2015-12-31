@@ -1,0 +1,9 @@
+{
+  "firebase": "avand-tunes",
+  "public": "public",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

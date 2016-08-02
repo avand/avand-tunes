@@ -68,3 +68,7 @@ a {
 .track-detail {
   margin: 0 0.4em;
 }
+
+.track audio {
+  width: 100%;
+}
